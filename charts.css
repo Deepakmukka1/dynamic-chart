@@ -1,0 +1,25 @@
+body {
+  background-color: black;
+  color: aliceblue;
+}
+.main {
+  width: 95vw;
+  text-align: center;
+}
+input {
+  margin: 10px;
+}
+.forms {
+  margin-top: 50px;
+}
+button {
+  margin-top: 10px;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+  background-color: #3498db;
+  color: white;
+  letter-spacing: 0.1rem;
+  padding: 10px;
+  border: 2px solid transparent;
+}

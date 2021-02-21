@@ -1,3 +1,4 @@
+import './charts.css'
 import React, { useState } from "react";
 import { Bar, Pie, Doughnut } from "react-chartjs-2";
 
@@ -40,8 +41,8 @@ function Senddata() {
   };
 
   return (
-    <div>
-      <form method="POST" onSubmit={handleSubmit}>
+    <div className="main">
+      <form method="POST" onSubmit={handleSubmit} className="forms">
         <div>
           <span>Enter 1st value: </span>
           <input
